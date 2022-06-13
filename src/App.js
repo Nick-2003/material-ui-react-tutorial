@@ -63,8 +63,8 @@ function ChEx() {
     <FormControlLabel
       control={<Checkbox 
         checked={checked} 
-        icon = {<DeleteIcon color="secondary"/>}
-        checkedIcon = {<SaveIcon color="primary"/>}
+        icon = {<DeleteIcon color="primary"/>}
+        checkedIcon = {<SaveIcon color="secondary"/>}
         onChange = {(e)=>setChecked(e.target.checked)} 
         color = "default"
         inputProps={{
