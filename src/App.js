@@ -103,14 +103,17 @@ function App() {
               </Button>
             </ButtonGroup>
             <Grid container spacing ={1} justify="center">
-              <Grid item>
-                <Paper style={{ height: 100, width: 100, marginBottom: 20, marginTop: 20}}/>
+              <Grid item xs={3} sm={6}>
+                <Paper style={{ height: 100, width: 100, marginBottom: 10, marginTop: 10}}/>
               </Grid>
-              <Grid item>
-                <Paper style={{ height: 100, width: 100, marginBottom: 20, marginTop: 20}}/>
+              <Grid item xs={3} sm={6}>
+                <Paper style={{ height: 100, width: 100, marginBottom: 10, marginTop: 10}}/>
               </Grid>
-              <Grid item>
-                <Paper style={{ height: 100, width: 100, marginBottom: 20, marginTop: 20}}/>
+              <Grid item xs={3} sm={6}>
+                <Paper style={{ height: 100, width: 100, marginBottom: 10, marginTop: 10}}/>
+              </Grid>
+              <Grid item xs={3} sm={6}>
+                <Paper style={{ height: 100, width: 100, marginBottom: 10, marginTop: 10}}/>
               </Grid>
             </Grid>
             <TextField 
